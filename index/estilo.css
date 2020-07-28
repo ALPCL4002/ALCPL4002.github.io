@@ -1,0 +1,66 @@
+#logo{
+    width: 90px;
+    padding-left: 55px;
+    padding-top: 5px;
+    position: absolute;
+}   
+
+#cabecalho{
+   padding-left: 50%;
+   top: 50px;
+   line-height: 30px;
+   height: 30px;
+   word-spacing: 70px;
+   height: 100px;
+   position: absolute;
+}
+
+#cabecalho ul{
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+#cabecalho ul li{
+    display: inline;
+    font: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecalho ul li a{
+    padding: 2px 10px;
+    display: inline-block;
+    /* visual do link */
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px #EDEDED;
+}
+
+ /* click no menu (Ta dando erro)
+#cabecalho ul li a:hover{
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+*/
+
+#meio{
+    padding-top: 120px;
+    width: 100%;
+    height: 800px;
+    opacity: 0.5;
+}
+
+.linha{
+    position: relative;
+    left: 20%;
+}
+
+body{
+    color: blue;  
+}
+#a1{
+    text-align: center;
+    color: black;
+
+}
